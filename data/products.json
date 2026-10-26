@@ -1,16 +1,128 @@
 [
-  { "id": 101, "name": "Teclado mecánico", "category": "Periféricos", "price": 189900, "stock": 8, "description": "Teclado USB para uso diario", "active": true },
-  { "id": 102, "name": "Mouse inalámbrico", "category": "Periféricos", "price": 59900, "stock": 15, "description": "Mouse óptico con receptor USB", "active": true },
-  { "id": 103, "name": "Diadema gamer", "category": "Periféricos", "price": 129900, "stock": 0, "description": "Audífonos con micrófono y luces LED", "active": true },
-  { "id": 104, "name": "Webcam HD", "category": "Periféricos", "price": 99900, "stock": 5, "description": "Cámara 1080p para videollamadas", "active": false },
-  { "id": 201, "name": "Monitor 24 pulgadas", "category": "Monitores", "price": 549900, "stock": 6, "description": "Monitor Full HD con panel IPS", "active": true },
-  { "id": 202, "name": "Monitor curvo 27 pulgadas", "category": "Monitores", "price": 899900, "stock": 3, "description": "Pantalla curva de 75 Hz para oficina y juegos", "active": true },
-  { "id": 203, "name": "Monitor portátil 15 pulgadas", "category": "Monitores", "price": 399900, "stock": 0, "description": "Pantalla USB-C ligera para viajar", "active": true },
-  { "id": 204, "name": "Monitor 19 pulgadas", "category": "Monitores", "price": 249900, "stock": 4, "description": "Modelo antiguo descontinuado", "active": false },
-  { "id": 301, "name": "Disco SSD 480 GB", "category": "Almacenamiento", "price": 149900, "stock": 20, "description": "Unidad de estado sólido SATA", "active": true },
-  { "id": 302, "name": "Disco duro externo 1 TB", "category": "Almacenamiento", "price": 229900, "stock": 7, "description": "Disco portátil USB 3.0", "active": true },
-  { "id": 303, "name": "Memoria USB 64 GB", "category": "Almacenamiento", "price": 29900, "stock": 40, "description": "Memoria flash compacta", "active": true },
-  { "id": 304, "name": "Tarjeta microSD 128 GB", "category": "Almacenamiento", "price": 49900, "stock": 0, "description": "Tarjeta de memoria clase 10", "active": true },
-  { "id": 401, "name": "Router WiFi 6", "category": "Redes", "price": 259900, "stock": 9, "description": "Router de doble banda con cuatro antenas", "active": true },
-  { "id": 402, "name": "Cable HDMI 2 metros", "category": "Redes", "price": 19900, "stock": 50, "description": "Cable HDMI 4K de alta velocidad", "active": true }
+  {
+    "id": 101,
+    "name": "Teclado mecánico",
+    "category": "Periféricos",
+    "price": 189900,
+    "stock": 8,
+    "description": "Teclado USB para uso diario",
+    "active": true
+  },
+  {
+    "id": 102,
+    "name": "Mouse inalámbrico",
+    "category": "Periféricos",
+    "price": 59900,
+    "stock": 15,
+    "description": "Mouse óptico con receptor USB",
+    "active": true
+  },
+  {
+    "id": 103,
+    "name": "Diadema gamer",
+    "category": "Periféricos",
+    "price": 129900,
+    "stock": 0,
+    "description": "Audífonos con micrófono y luces LED",
+    "active": true
+  },
+  {
+    "id": 104,
+    "name": "Webcam HD",
+    "category": "Periféricos",
+    "price": 99900,
+    "stock": 5,
+    "description": "Cámara 1080p para videollamadas",
+    "active": false
+  },
+  {
+    "id": 201,
+    "name": "Monitor 24 pulgadas",
+    "category": "Monitores",
+    "price": 549900,
+    "stock": 6,
+    "description": "Monitor Full HD con panel IPS",
+    "active": true
+  },
+  {
+    "id": 202,
+    "name": "Monitor curvo 27 pulgadas",
+    "category": "Monitores",
+    "price": 899900,
+    "stock": 3,
+    "description": "Pantalla curva de 75 Hz para oficina y juegos",
+    "active": true
+  },
+  {
+    "id": 203,
+    "name": "Monitor portátil 15 pulgadas",
+    "category": "Monitores",
+    "price": 399900,
+    "stock": 0,
+    "description": "Pantalla USB-C ligera para viajar",
+    "active": true
+  },
+  {
+    "id": 204,
+    "name": "Monitor 19 pulgadas",
+    "category": "Monitores",
+    "price": 249900,
+    "stock": 4,
+    "description": "Modelo antiguo descontinuado",
+    "active": false
+  },
+  {
+    "id": 301,
+    "name": "Disco SSD 480 GB",
+    "category": "Almacenamiento",
+    "price": 149900,
+    "stock": 20,
+    "description": "Unidad de estado sólido SATA",
+    "active": true
+  },
+  {
+    "id": 302,
+    "name": "Disco duro externo 1 TB",
+    "category": "Almacenamiento",
+    "price": 229900,
+    "stock": 7,
+    "description": "Disco portátil USB 3.0",
+    "active": true
+  },
+  {
+    "id": 303,
+    "name": "Memoria USB 64 GB",
+    "category": "Almacenamiento",
+    "price": 29900,
+    "stock": 30,
+   "description":"Memoria flash compacta",
+   "active": true
+  },
+  {
+   "id": 304,
+   "name": "Tarjeta microSD 128 GB",
+   "category": "Almacenamiento",
+   "price": 49900,
+   "stock": 0,
+   "description": "Tarjeta de memoria clase 10",
+   "active": true
+  },
+   {
+     "id": 401,
+     "name": "Router WiFi 6",
+     "category": "Redes",
+     "price": 259900,
+     "stock": 9,
+     "description": "Router de doble banda con cuatro antenas",
+     "active": true
+   },
+   {
+     "id": 402,
+     "name": "Cable HDMI",
+     "category": "Redes",
+     "price": 19900,
+     "stock": 12,
+     "description": "Cable HDMI 2.0 de 5 metros",
+     "active": true
+   }
 ]
