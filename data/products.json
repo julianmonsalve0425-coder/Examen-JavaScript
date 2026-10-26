@@ -12,7 +12,7 @@
     "id": 102,
     "name": "Mouse inalámbrico",
     "category": "Periféricos",
-    "price": 59900,
+    "price": 60000,
     "stock": 15,
     "description": "Mouse óptico con receptor USB",
     "active": true
@@ -30,7 +30,7 @@
     "id": 104,
     "name": "Webcam HD",
     "category": "Periféricos",
-    "price": 99900,
+    "price": 100000,
     "stock": 5,
     "description": "Cámara 1080p para videollamadas",
     "active": false
@@ -66,7 +66,7 @@
     "id": 204,
     "name": "Monitor 19 pulgadas",
     "category": "Monitores",
-    "price": 249900,
+    "price": 250000,
     "stock": 4,
     "description": "Modelo antiguo descontinuado",
     "active": false
@@ -75,7 +75,7 @@
     "id": 301,
     "name": "Disco SSD 480 GB",
     "category": "Almacenamiento",
-    "price": 149900,
+    "price": 165000,
     "stock": 20,
     "description": "Unidad de estado sólido SATA",
     "active": true
@@ -84,7 +84,7 @@
     "id": 302,
     "name": "Disco duro externo 1 TB",
     "category": "Almacenamiento",
-    "price": 229900,
+    "price": 245000,
     "stock": 7,
     "description": "Disco portátil USB 3.0",
     "active": true
@@ -93,7 +93,7 @@
     "id": 303,
     "name": "Memoria USB 64 GB",
     "category": "Almacenamiento",
-    "price": 29900,
+    "price": 30000,
     "stock": 30,
    "description":"Memoria flash compacta",
    "active": true
@@ -102,7 +102,7 @@
    "id": 304,
    "name": "Tarjeta microSD 128 GB",
    "category": "Almacenamiento",
-   "price": 49900,
+   "price": 50000,
    "stock": 0,
    "description": "Tarjeta de memoria clase 10",
    "active": true
@@ -111,7 +111,7 @@
      "id": 401,
      "name": "Router WiFi 6",
      "category": "Redes",
-     "price": 259900,
+     "price": 270000,
      "stock": 9,
      "description": "Router de doble banda con cuatro antenas",
      "active": true
@@ -120,7 +120,7 @@
      "id": 402,
      "name": "Cable HDMI",
      "category": "Redes",
-     "price": 19900,
+     "price": 20000,
      "stock": 12,
      "description": "Cable HDMI 2.0 de 5 metros",
      "active": true
