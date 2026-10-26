@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TecnoStock</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>TecnoStock</h1>
+    <a class="cart-link" href="#cart-section">Carrito: <span id="cart-count">0</span> uds.</a>
+  </header>
+
+  <main class="container">
+    <section class="filters" aria-label="Filtros">
+      <div class="field">
+        <label for="search">Buscar</label>
+        <input type="search" id="search" placeholder="Nombre o descripción">
+      </div>
+      <div class="field">
+        <label for="category">Categoría</label>
+        <select id="category">
+          <option value="">Todas las categorías</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="sort">Ordenar por</label>
+        <select id="sort">
+          <option value="">Sin ordenar</option>
+          <option value="price-asc">Precio: menor a mayor</option>
+          <option value="price-desc">Precio: mayor a menor</option>
+        </select>
+      </div>
+      <div class="field field-check">
+        <label><input type="checkbox" id="only-available"> Solo disponibles</label>
+      </div>
+      <button type="button" class="btn" id="clear-filters">Limpiar filtros</button>
+    </section>
+
+    <div id="message" class="message" role="status" hidden></div>
+
+    <p id="loading" class="loading"><span class="spinner"></span> Cargando catálogo...</p>
+
+    <div id="error-box" class="error-box" role="alert" hidden>
+      <p id="error-text"></p>
+      <button type="button" class="btn btn-primary" id="retry-btn">Reintentar</button>
+    </div>
+
+    <div class="layout">
+      <section id="catalog-section">
+        <p id="results-count" class="results-count"></p>
+        <product-list></product-list>
+      </section>
+
+      <aside id="cart-section">
+        <shopping-cart></shopping-cart>
+      </aside>
+    </div>
+  </main>
+
+  <dialog id="order-modal">
+    <h2>Pedido confirmado</h2>
+    <div id="order-content"></div>
+    <button type="button" class="btn btn-primary" id="close-modal">Cerrar</button>
+  </dialog>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
