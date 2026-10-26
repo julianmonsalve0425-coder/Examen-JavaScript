@@ -147,6 +147,7 @@ $('category').addEventListener('change', renderProducts);
 $('only-available').addEventListener('change', renderProducts);
 $('sort').addEventListener('change', renderProducts);
 
+//Evento limpiar filtros, resetea los valores de los filtros y renderiza los productos
 $('clear-filters').addEventListener('click', () => {
   $('search').value = '';
   $('category').value = '';

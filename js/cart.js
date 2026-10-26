@@ -28,7 +28,7 @@ function fail(message) {
 function buscarProducto(catalog, id) {
   return catalog.find((p) => p.id === id);
 }
-
+//validar cantidad de productos en el carrito, si no es válida retorna un mensaje de error
 function validarCantidad(product, quantity) {
   if (!product) return 'El producto no existe en el catálogo.';
   if (!Number.isInteger(quantity)) return 'La cantidad debe ser un número entero.';
