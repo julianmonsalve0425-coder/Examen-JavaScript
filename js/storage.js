@@ -17,7 +17,7 @@ export function loadCart() {
     if (!Array.isArray(data)) return [];
 
     return data
-      .filter((item) => item && Number.isInteger(item.productId) && Number.isInteger(item.quantity) && item.quantity >= 1)
+      .filter((item) => item && Number.isInteger(item.productId) && item.productId >= 1 && Number.isInteger(item.quantity) && item.quantity >= 1)
       .map((item) => ({ productId: item.productId, quantity: item.quantity }));
   } catch (error) {
     return [];
